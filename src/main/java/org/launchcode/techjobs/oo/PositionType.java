@@ -4,6 +4,14 @@ import java.util.Objects;
 
 public class PositionType extends JobField {
 
+    public PositionType(String value) {
+        super(value);
+    }
+
+
+
+    // ITEMS BELOW THIS LINE KEPT FOR REFERENCE
+
 //    private int id;
 //    private static int nextId = 1;
 //    private String value;
@@ -18,9 +26,7 @@ public class PositionType extends JobField {
 //        this.value = value;
 //    }
 
-    public PositionType(String value) {
-        super(value);
-    }
+
 
     // TODO: Add a custom toString() method that returns the data stored in 'value'.
 //

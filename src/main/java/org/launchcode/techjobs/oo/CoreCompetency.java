@@ -4,6 +4,13 @@ import java.util.Objects;
 
 public class CoreCompetency extends JobField {
 
+    public CoreCompetency(String value) {
+        super(value);
+    }
+
+
+    // ITEMS BELOW THIS LINE KEPT FOR REFERENCE
+
 //    private int id;
 //    private static int nextId = 1;
 //    private String value;
@@ -18,9 +25,6 @@ public class CoreCompetency extends JobField {
 //        this();
 //        this.value = value;
 
-    public CoreCompetency(String value) {
-        super(value);
-    }
 
 
     // Custom toString, equals, and hashCode methods:

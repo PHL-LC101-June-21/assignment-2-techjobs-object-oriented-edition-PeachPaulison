@@ -42,6 +42,17 @@ public class Job {
     }
 
     @Override
+    public String toString() {
+        return "\n" + "ID: " + getId() + "\n" +
+                "Name: " + getName() + "\n" +
+                "Employer: " + getEmployer().getValue() + "\n" +
+                "Location: " + getLocation().getValue() + "\n" +
+                "Position Type: " + getPositionType().getValue() + "\n" +
+                "Core Competency: " + getCoreCompetency().getValue() + "\n";
+    }
+
+
+    @Override
     public int hashCode() {
         return Objects.hash(id);
     }
@@ -117,16 +128,5 @@ public class Job {
 //        }
 
 
-    @Override
-    public String toString() {
-
-
-        return "\n" + "ID: " + getId() + "\n" +
-                "\n" + "Name: " + getName() + "\n" +
-                "\n" + "Employer: " + getEmployer().getValue() + "\n" +
-                "\n" + "Location: " + getLocation().getValue() + "\n" +
-                "\n" + "Position Type: " + getPositionType().getValue() + "\n" +
-                "\n" + "Core Competency: " + getCoreCompetency().getValue() + "\n";
-    }
 
 }
