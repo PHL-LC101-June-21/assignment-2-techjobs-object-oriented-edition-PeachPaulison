@@ -21,7 +21,6 @@ public class Employer extends JobField {
 //    }
 //
 
-
     // Custom toString, equals, and hashCode methods:
 
 //    @Override
